@@ -15,7 +15,6 @@
          "cronbackupevent": "0 */5 * * * *",
          "minifyhtml": false,
          "compressresponses": false,
-         "enablesecurity": false,
          "baseurl": "http://localhost:8080/"
       },
       "logs": {
@@ -29,7 +28,7 @@
    "Entities": {
       "default": {"provider":"sqlite","databasepath":"./qrdemo.db"}
    },
-   "DefaultComponents": [],
+   "DefaultComponents": ["qrdemo"],
    "ActiveServices": [
       "middleware",
       "view",
@@ -39,6 +38,7 @@
    "ActiveServicesByComponent": [],
    "InactiveComponents": [],
    "NotFoundRedirect": "/404.html",
+   "LandingView": "qrmain.mainview",
    "GlobalTemplateVars": {
       "global-sitename": ""
    }
