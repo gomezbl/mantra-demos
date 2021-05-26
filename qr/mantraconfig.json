@@ -28,7 +28,7 @@
    "Entities": {
       "default": {"provider":"sqlite","databasepath":"./qrdemo.db"}
    },
-   "DefaultComponents": ["qrdemo", "qrcodegenerator"],
+   "DefaultComponents": ["qrmain", "qrcodegenerator"],
    "ActiveServices": [
       "middleware",
       "view",
