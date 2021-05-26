@@ -1,17 +1,17 @@
 # Mantra QR demo application
 
-This is a simple Mantra application to generata QR codes.
+This is a simple Mantra application to generate QR codes.
 
-To install it:
+To install it, run this inside the project folder:
 
 ```
-$ mantra install
+~/dev/mantra-demos/qr/$ mantra install
 ```
 
 Then, to run it just type:
 
 ```
-$ mantra startapp mainapp
+~/dev/mantra-demos/qr/$ mantra startapp mainapp
 ```
 
 Then, open the browser pointing to http://localhost:8080
