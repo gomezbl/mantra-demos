@@ -14,6 +14,8 @@ Then, to run it just type:
 $ mantra startapp mainapp
 ```
 
+Then, open the browser pointing to http://localhost:8080
+
 # Components
 This simple app implements two basic components:
 
